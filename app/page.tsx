@@ -314,6 +314,16 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── SCRIPTURE ── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#0a0a0a] border-y border-[#222222]">
+        <div className="max-w-2xl mx-auto text-center">
+          <p className="text-xl sm:text-2xl text-white font-semibold leading-relaxed italic">
+            &ldquo;Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.&rdquo;
+          </p>
+          <p className="mt-4 text-[#F5C518] text-sm font-bold uppercase tracking-widest">Galatians 6:9</p>
+        </div>
+      </section>
+
       {/* ── TESTIMONIALS ── */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[#0a0a0a]">
         <div className="max-w-6xl mx-auto">
