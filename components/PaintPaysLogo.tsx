@@ -16,7 +16,6 @@ export function PPIcon({ size = 'md', className = '' }: PaintPaysLogoProps) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <rect width="200" height="200" rx="32" fill="#111111"/>
       <rect x="28" y="40" width="8" height="120" rx="4" fill="#F5C518"/>
       <text x="48" y="106" fontFamily="'Arial Black', 'Helvetica Neue', Impact, sans-serif" fontWeight="900" fontSize="56" letterSpacing="-1" fill="#FFFFFF">PP</text>
     </svg>
@@ -32,7 +31,6 @@ export function PaintPaysWordmark({ className = '' }: { className?: string }) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <rect width="600" height="200" rx="18" fill="#111111"/>
       <rect x="44" y="52" width="9" height="96" rx="4.5" fill="#F5C518"/>
       <text x="72" y="118" fontFamily="'Arial Black', 'Helvetica Neue', Impact, sans-serif" fontWeight="900" fontSize="66" letterSpacing="-1" fill="#FFFFFF">PAINT</text>
       <text x="72" y="176" fontFamily="'Arial Black', 'Helvetica Neue', Impact, sans-serif" fontWeight="900" fontSize="66" letterSpacing="-1" fill="#F5C518">PAYS</text>
