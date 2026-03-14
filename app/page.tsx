@@ -401,16 +401,16 @@ export default function HomePage() {
                 caption: 'The boat doesn\'t move itself — the systems do.',
               },
               {
-                src: '/lifestyle/jetski-book.jpg',
-                caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.',
+                src: '/lifestyle/truck-camper.jpg',
+                caption: 'New truck. New camper. New chapter.',
               },
               {
                 src: '/lifestyle/mercedes.jpg',
                 caption: 'Pulled up to the dealership. Drove home in the AMG.',
               },
               {
-                src: '/lifestyle/truck-camper.jpg',
-                caption: 'New truck. New camper. New chapter.',
+                src: '/lifestyle/jetski-book.jpg',
+                caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.',
               },
             ].map((item) => (
               <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-video bg-[#141414]">
