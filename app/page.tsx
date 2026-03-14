@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PPIcon as PPMonogram } from '@/components/PaintPaysLogo';
+import VideoPlayer from '@/components/VideoPlayer';
 
 // ── Stats Bar ──────────────────────────────────────────────────────────────
 const stats = [
@@ -305,16 +306,7 @@ export default function HomePage() {
           </div>
 
           {/* Video */}
-          <div className="rounded-xl overflow-hidden aspect-square bg-[#0a0a0a]">
-            <video
-              src="/hero-video.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <VideoPlayer />
         </div>
       </section>
 
