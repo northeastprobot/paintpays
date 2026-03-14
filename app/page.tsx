@@ -304,12 +304,16 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Placeholder Image */}
-          <div className="bg-[#0a0a0a] border border-[#222222] rounded-xl aspect-square flex items-center justify-center">
-            <div className="text-center">
-              <PPMonogram size="lg" />
-              <p className="text-[#888888] text-sm mt-4">Thomas&apos;s photo coming soon</p>
-            </div>
+          {/* Video */}
+          <div className="rounded-xl overflow-hidden aspect-square bg-[#0a0a0a]">
+            <video
+              src="/hero-video.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
