@@ -34,9 +34,6 @@ export function PaintPaysWordmark({ className = '' }: { className?: string }) {
       <rect x="44" y="52" width="9" height="96" rx="4.5" fill="#F5C518"/>
       <text x="72" y="118" fontFamily="'Arial Black', 'Helvetica Neue', Impact, sans-serif" fontWeight="900" fontSize="66" letterSpacing="-1" fill="#FFFFFF">PAINT</text>
       <text x="72" y="176" fontFamily="'Arial Black', 'Helvetica Neue', Impact, sans-serif" fontWeight="900" fontSize="66" letterSpacing="-1" fill="#F5C518">PAYS</text>
-      <circle cx="548" cy="84" r="10" fill="#F5C518"/>
-      <circle cx="548" cy="112" r="7" fill="#F5C518" opacity="0.75"/>
-      <circle cx="548" cy="134" r="4" fill="#F5C518" opacity="0.45"/>
     </svg>
   );
 }
