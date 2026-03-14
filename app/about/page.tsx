@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PPIcon as PPMonogram } from '@/components/PaintPaysLogo';
+import VideoPlayer from '@/components/VideoPlayer';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -90,12 +91,9 @@ export default function AboutPage() {
       {/* Thomas Story */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
-          {/* Placeholder */}
-          <div className="bg-[#141414] border border-[#222222] rounded-xl aspect-square flex items-center justify-center sticky top-24">
-            <div className="text-center">
-              <PPMonogram size="lg" />
-              <p className="text-[#888888] text-sm mt-4">Thomas&apos;s photo coming soon</p>
-            </div>
+          {/* Video */}
+          <div className="sticky top-24">
+            <VideoPlayer />
           </div>
 
           {/* Story */}
