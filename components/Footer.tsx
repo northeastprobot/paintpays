@@ -78,8 +78,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-[#222222] mt-10 pt-6 text-center text-[#888888] text-sm">
-          © 2026 Paint Pays. All rights reserved.
+        <div className="border-t border-[#222222] mt-10 pt-6 flex flex-col items-center gap-2">
+          <p className="text-[#F5C518] text-xs italic opacity-60">"Whatever you do, work at it with all your heart." — Colossians 3:23</p>
+          <p className="text-[#888888] text-sm">© 2026 Paint Pays. All rights reserved.</p>
         </div>
       </div>
     </footer>
