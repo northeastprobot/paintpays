@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import CalendlyEmbed from '@/components/CalendlyEmbed';
+
+// TODO: Replace with actual Calendly URL once account is confirmed
+const CALENDLY_URL = 'https://calendly.com/paintpays-admin/strategy-call';
 
 export const metadata: Metadata = {
   title: 'Coaching | Paint Pays',
@@ -106,6 +110,23 @@ export default function CoachingPage() {
               Apply Now →
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Book a Call */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 border-t border-[#222222] bg-[#141414]">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-[#F5C518] text-xs font-bold uppercase tracking-[0.25em] mb-4 text-center">
+            Not Sure Which Program Is Right For You?
+          </p>
+          <h2 className="text-3xl font-black text-center mb-4">
+            Book a Free{' '}
+            <span className="text-[#F5C518]">30-Minute Strategy Call</span>
+          </h2>
+          <p className="text-[#888888] text-center max-w-xl mx-auto mb-10 leading-relaxed">
+            No pitch. No pressure. Just 30 minutes to talk about your business, where you&apos;re stuck, and whether Paint Pays is the right fit.
+          </p>
+          <CalendlyEmbed url={CALENDLY_URL} />
         </div>
       </section>
 
