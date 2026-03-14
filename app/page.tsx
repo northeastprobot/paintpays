@@ -4,7 +4,7 @@ import { PPIcon as PPMonogram } from '@/components/PaintPaysLogo';
 // ── Stats Bar ──────────────────────────────────────────────────────────────
 const stats = [
   { value: '$5M+', label: 'Revenue Generated' },
-  { value: '700+', label: 'Projects Completed' },
+  { value: '1,100+', label: 'Projects Completed' },
   { value: '10+', label: 'Years in the Trades' },
   { value: '100s', label: 'of Contractors Coached' },
 ];
