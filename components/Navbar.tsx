@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <PaintPaysLogo size={36} />
+            <PaintPaysLogo />
           </Link>
 
           {/* Desktop Nav */}

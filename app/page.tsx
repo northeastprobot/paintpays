@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PPMonogram } from '@/components/PaintPaysLogo';
+import { PPIcon as PPMonogram } from '@/components/PaintPaysLogo';
 
 // ── Stats Bar ──────────────────────────────────────────────────────────────
 const stats = [
@@ -307,7 +307,7 @@ export default function HomePage() {
           {/* Placeholder Image */}
           <div className="bg-[#0a0a0a] border border-[#222222] rounded-xl aspect-square flex items-center justify-center">
             <div className="text-center">
-              <PPMonogram size={80} />
+              <PPMonogram size="lg" />
               <p className="text-[#888888] text-sm mt-4">Thomas&apos;s photo coming soon</p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PPMonogram } from '@/components/PaintPaysLogo';
+import { PPIcon as PPMonogram } from '@/components/PaintPaysLogo';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -93,7 +93,7 @@ export default function AboutPage() {
           {/* Placeholder */}
           <div className="bg-[#141414] border border-[#222222] rounded-xl aspect-square flex items-center justify-center sticky top-24">
             <div className="text-center">
-              <PPMonogram size={80} />
+              <PPMonogram size="lg" />
               <p className="text-[#888888] text-sm mt-4">Thomas&apos;s photo coming soon</p>
             </div>
           </div>

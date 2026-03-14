@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <PaintPaysLogo size={36} />
+            <PaintPaysLogo />
             <p className="mt-3 text-[#888888] text-sm">Built by painters. For painters.</p>
           </div>
 
