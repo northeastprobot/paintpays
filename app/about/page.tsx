@@ -183,9 +183,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 gap-3 sm:gap-6">
             {[
               { src: '/lifestyle/boat.jpg', caption: "The boat doesn't move itself — the systems do.", position: 'object-[25%_65%]' },
-              { src: '/lifestyle/truck-camper.jpg', caption: 'New truck. New camper. New chapter.', position: 'object-center' },
+              { src: '/lifestyle/truck-camper.jpg', caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.', position: 'object-center' },
               { src: '/lifestyle/mercedes.jpg', caption: 'Pulled up to the dealership. Drove home in the AMG.', position: 'object-bottom' },
-              { src: '/lifestyle/jetski-book.jpg', caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.', position: 'object-center' },
+              { src: '/lifestyle/jetski-book.jpg', caption: 'New truck. New camper. New chapter.', position: 'object-center' },
             ].map((item) => (
               <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-square sm:aspect-video bg-[#141414]">
                 <img
