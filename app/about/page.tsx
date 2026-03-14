@@ -182,16 +182,16 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 gap-3 sm:gap-6">
             {[
-              { src: '/lifestyle/boat.jpg', caption: "The boat doesn't move itself — the systems do." },
-              { src: '/lifestyle/truck-camper.jpg', caption: 'New truck. New camper. New chapter.' },
-              { src: '/lifestyle/mercedes.jpg', caption: 'Pulled up to the dealership. Drove home in the AMG.' },
-              { src: '/lifestyle/jetski-book.jpg', caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.' },
+              { src: '/lifestyle/boat.jpg', caption: "The boat doesn't move itself — the systems do.", position: 'object-center' },
+              { src: '/lifestyle/truck-camper.jpg', caption: 'New truck. New camper. New chapter.', position: 'object-center' },
+              { src: '/lifestyle/mercedes.jpg', caption: 'Pulled up to the dealership. Drove home in the AMG.', position: 'object-bottom' },
+              { src: '/lifestyle/jetski-book.jpg', caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.', position: 'object-center' },
             ].map((item) => (
               <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-square sm:aspect-video bg-[#141414]">
                 <img
                   src={item.src}
                   alt={item.caption}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className={`w-full h-full object-cover ${item.position} group-hover:scale-105 transition-transform duration-500`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 <p className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 text-white text-xs sm:text-sm font-semibold leading-snug">
