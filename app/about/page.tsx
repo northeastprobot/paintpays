@@ -92,7 +92,7 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
           {/* Video */}
-          <div className="sticky top-24">
+          <div>
             <VideoPlayer />
           </div>
 
