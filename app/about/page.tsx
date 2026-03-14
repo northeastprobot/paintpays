@@ -168,6 +168,43 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Lifestyle Photos */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0a0a0a]">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-[#F5C518] text-xs font-bold uppercase tracking-[0.25em] mb-4 text-center">
+            This Is What The Work Is For
+          </p>
+          <h2 className="text-3xl font-black text-center mb-4 leading-tight">
+            Build a business that funds your life.{' '}
+            <span className="text-[#F5C518]">Not the other way around.</span>
+          </h2>
+          <p className="text-[#888888] text-center max-w-xl mx-auto mb-12 leading-relaxed">
+            When the systems run without you, your time becomes yours again.
+          </p>
+
+          <div className="grid grid-cols-2 gap-3 sm:gap-6">
+            {[
+              { src: '/lifestyle/boat.jpg', caption: "The boat doesn't move itself — the systems do." },
+              { src: '/lifestyle/truck-camper.jpg', caption: 'New truck. New camper. New chapter.' },
+              { src: '/lifestyle/mercedes.jpg', caption: 'Pulled up to the dealership. Drove home in the AMG.' },
+              { src: '/lifestyle/jetski-book.jpg', caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.' },
+            ].map((item) => (
+              <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-square sm:aspect-video bg-[#141414]">
+                <img
+                  src={item.src}
+                  alt={item.caption}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                <p className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 text-white text-xs sm:text-sm font-semibold leading-snug">
+                  {item.caption}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
