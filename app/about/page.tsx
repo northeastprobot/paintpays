@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'About | Paint Pays',
   description:
-    "Thomas built Northeast Pro Services from a truck and a sprayer to $5M/year. Here's the real story.",
+    "Thomas built a painting company from nothing to $5M/year in Western New York. Here's the real story.",
 };
 
 const timeline = [
@@ -31,7 +31,7 @@ const timeline = [
   },
   {
     year: '2025',
-    event: 'Started rebranding to Northeast Pro Services — expanding beyond painting into roofing, siding, and restoration to take over more markets.',
+    event: 'Started rebranding the company — expanding beyond painting into roofing, siding, and restoration to take over more markets.',
   },
   {
     year: '2026',
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-[#888888] leading-relaxed">
               <p>
-                I started Northeast Pro Services in 2020 with my brother and a few friends. No
+                I started my company in 2020 with my brother and a few friends. No
                 business plan. No systems. Just us doing the work, showing up every day, and figuring
                 it out as we went. We did $160K that first year.
               </p>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 year after, $2.6 million. I wasn&apos;t painting anymore — I was building a company.
               </p>
               <p>
-                By 2024, Northeast Pro Services was doing $4.7 million a year. Real crews, real
+                By 2024, we were doing $4.7 million a year. Real crews, real
                 systems, real infrastructure. The business ran without me on every job site.
               </p>
               <p>
