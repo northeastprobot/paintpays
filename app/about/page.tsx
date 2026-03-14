@@ -10,32 +10,32 @@ export const metadata: Metadata = {
 
 const timeline = [
   {
-    year: '2014',
-    event: 'Started with a truck, a sprayer, and zero clients in Buffalo, NY.',
-  },
-  {
-    year: '2016',
-    event: 'First $500K season. Hired first full-time crew. Made every rookie mistake in the book.',
-  },
-  {
-    year: '2018',
-    event: 'Hit $1M. Burned out. Realized the business ran me — I didn\'t run it.',
-  },
-  {
     year: '2020',
-    event: 'Built the systems. Fired bad clients. Raised prices. Doubled profit margins.',
+    event: '$160K in sales. Just me, my brother, and a few friends helping out when we needed them. We were painting every job ourselves.',
+  },
+  {
+    year: '2021',
+    event: '$180K. Still the same crew — me, my brother, and some friends. Grinding every day on the tools.',
   },
   {
     year: '2022',
-    event: 'Northeast Pro Services crossed $3M. Built in-house crews + subcontractor network.',
+    event: 'The turning point. I stepped off the tools and trained one of my guys to run the crews. We hit $1.7M that year.',
+  },
+  {
+    year: '2023',
+    event: 'Built more systems. Dialed in hiring, estimating, and operations. $2.6M in sales.',
   },
   {
     year: '2024',
-    event: 'Hit $5M+ in annual revenue. Started coaching other painting contractors.',
+    event: 'Things really took off. $4.7M in revenue. The systems worked. The business ran without me on every job.',
   },
   {
     year: '2025',
-    event: 'Launched Paint Pays. Built AI phone agents and marketing systems that run without me.',
+    event: 'Started rebranding to Northeast Pro Services — expanding beyond painting into roofing, siding, and restoration to take over more markets.',
+  },
+  {
+    year: '2026',
+    event: 'Launched Paint Pays. Sharing everything that got us here so other contractors can skip the hard lessons.',
   },
 ];
 
@@ -107,32 +107,32 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-[#888888] leading-relaxed">
               <p>
-                I started Northeast Pro Services in 2014 with a pickup truck, a Graco sprayer, and
-                about $2,000 in savings. No business degree. No mentor. No playbook.
+                I started Northeast Pro Services in 2020 with my brother and a few friends. No
+                business plan. No systems. Just us doing the work, showing up every day, and figuring
+                it out as we went. We did $160K that first year.
               </p>
               <p>
-                The first few years were brutal. I was working 70-hour weeks, underbidding jobs to
-                win them, hiring the wrong people, and wondering why — if the business was growing —
-                I still couldn&apos;t pay myself a real salary.
+                For the first two years, it was grinding on the tools every single day. Me and my
+                brother painting side by side. $160K in 2020. $180K in 2021. Good money, but I was
+                the business. If I stopped working, everything stopped.
               </p>
               <p>
-                In 2018, I hit $1M in revenue. I should have been celebrating. Instead, I was
-                exhausted, resentful, and one bad month from going under. The business had grown.
-                But I hadn&apos;t.
+                In 2022, I made the decision that changed everything. I stepped off the tools and
+                trained one of my guys to run the crews instead. That year we hit $1.7 million. The
+                year after, $2.6 million. I wasn&apos;t painting anymore — I was building a company.
               </p>
               <p>
-                So I stopped working in the business and started working on it. I built real
-                estimating systems. I wrote an actual hiring process. I raised my prices (and lost
-                clients I was better off without). I built a foreman structure so jobs could run
-                without me on-site.
+                By 2024, Northeast Pro Services was doing $4.7 million a year. Real crews, real
+                systems, real infrastructure. The business ran without me on every job site.
               </p>
               <p>
-                By 2022, we crossed $3M. By 2024, over $5M. And most importantly — I got my life
-                back. I coach Little League now. I take vacations. The business runs without me.
+                In 2025, we started rebranding — expanding beyond painting into roofing, siding, and
+                historical restoration. We built trust in Buffalo over five years. Now we&apos;re using
+                that reputation to take over more of the market.
               </p>
               <p className="text-white font-semibold">
-                Paint Pays is everything I wish I had when I started. No theory. No gurus. Just the
-                exact systems, scripts, and strategies that built a real company in the real world.
+                Paint Pays is everything I wish I had when I started. Five years. Zero to $5M. No
+                gurus, no theory — just the exact systems that built a real company in the real world.
               </p>
             </div>
 
