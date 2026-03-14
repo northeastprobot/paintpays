@@ -394,7 +394,7 @@ export default function HomePage() {
             When your business runs without you, your time becomes yours again. This is what that looks like.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-3 sm:gap-6">
             {[
               {
                 src: '/lifestyle/boat.jpg',
@@ -413,14 +413,14 @@ export default function HomePage() {
                 caption: 'Reading Steven Furtick on the water. Because Fridays are mine now.',
               },
             ].map((item) => (
-              <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-video bg-[#141414]">
+              <div key={item.src} className="relative group rounded-xl overflow-hidden aspect-square sm:aspect-video bg-[#141414]">
                 <img
                   src={item.src}
                   alt={item.caption}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                <p className="absolute bottom-4 left-4 right-4 text-white text-sm font-semibold leading-snug">
+                <p className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 text-white text-xs sm:text-sm font-semibold leading-snug">
                   {item.caption}
                 </p>
               </div>
