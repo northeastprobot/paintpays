@@ -16,7 +16,7 @@ function useFadeIn() {
           obs.unobserve(el);
         }
       },
-      { threshold: 0.12 }
+      { threshold: 0.05 }
     );
     obs.observe(el);
     return () => obs.disconnect();
