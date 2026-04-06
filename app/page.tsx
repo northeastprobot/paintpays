@@ -44,7 +44,7 @@ function Section({
 /* ─── HERO ─── */
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-[#0A0A0A] overflow-hidden">
+    <section className="relative py-32 md:py-44 flex items-center justify-center bg-[#0A0A0A] overflow-hidden">
       {/* Subtle radial glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,168,83,0.04)_0%,transparent_70%)]" />
 
