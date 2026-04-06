@@ -6,16 +6,23 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Paint Pays | Build a Painting Business That Actually Pays',
+  title: 'Paint Pays — Painting Changed My Life',
   description:
-    'Paint Pays gives serious painting contractors the systems, coaching, and marketing to scale past $1M — without working 80-hour weeks. Built by Thomas, who grew a $5M painting company in Buffalo, NY.',
-  keywords: 'painting business coaching, painting contractor coaching, painting business marketing, painting company systems',
+    'Premium media brand for painting contractors. Conversations, coaching, and free game from a $5M painting company owner.',
+  keywords:
+    'painting business, painting contractor, painting company, paint pays, painting podcast, painting coaching',
   openGraph: {
-    title: 'Paint Pays | Build a Painting Business That Actually Pays',
+    title: 'Paint Pays — Painting Changed My Life',
     description:
-      'Paint Pays gives serious painting contractors the systems, coaching, and marketing to scale past $1M.',
+      'Premium media brand for painting contractors. Conversations, coaching, and free game from a $5M painting company owner.',
     siteName: 'Paint Pays',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Paint Pays — Painting Changed My Life',
+    description:
+      'Premium media brand for painting contractors. Conversations, coaching, and free game from a $5M painting company owner.',
   },
 };
 
@@ -26,9 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased bg-[#0a0a0a] text-white`}>
+      <body
+        className={`${GeistSans.variable} ${GeistMono.variable} antialiased bg-dark-bg text-white`}
+      >
         <Navbar />
-        <main className="pt-16">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
