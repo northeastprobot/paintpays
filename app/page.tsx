@@ -88,38 +88,32 @@ function ContentPillars() {
   return (
     <Section className="py-24 md:py-32 bg-[#0A0A0A]">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-0 md:gap-0">
           {/* The Conversations */}
-          <div className="bg-dark-card border border-border rounded-lg p-8 md:p-10 hover:border-[#333] transition-colors group">
-            <div className="text-3xl mb-4">🎙️</div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-3">The Conversations</h3>
-            <p className="text-muted leading-relaxed mb-6">
+          <Link href="/podcast" className="group block relative py-12 md:py-16 px-8 md:px-12 border-b md:border-b-0 md:border-r border-[#1A1A1A] hover:bg-[#0F0F0F] transition-all duration-500">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-muted/60 font-medium">01</span>
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5 tracking-tight group-hover:text-white/90 transition-colors">The Conversations</h3>
+            <p className="text-muted leading-relaxed text-base md:text-lg max-w-md">
               Real talk with painters, entrepreneurs, and industry leaders about what it
               actually takes to build something great.
             </p>
-            <Link
-              href="/podcast"
-              className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
-            >
+            <span className="inline-block mt-8 text-white/50 text-sm font-medium group-hover:text-white group-hover:translate-x-1 transition-all duration-300">
               Listen Now →
-            </Link>
-          </div>
+            </span>
+          </Link>
 
           {/* The Playbook */}
-          <div className="bg-dark-card border border-border rounded-lg p-8 md:p-10 hover:border-[#333] transition-colors group">
-            <div className="text-3xl mb-4">🎯</div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-3">The Playbook</h3>
-            <p className="text-muted leading-relaxed mb-6">
-              Everything I&rsquo;ve learned building a $5M painting company: systems, sales,
+          <Link href="/learn" className="group block relative py-12 md:py-16 px-8 md:px-12 hover:bg-[#0F0F0F] transition-all duration-500">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-muted/60 font-medium">02</span>
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5 tracking-tight group-hover:text-white/90 transition-colors">The Playbook</h3>
+            <p className="text-muted leading-relaxed text-base md:text-lg max-w-md">
+              Everything I&rsquo;ve learned building a $5M painting company. Systems, sales,
               hiring, marketing, mindset. No gatekeeping.
             </p>
-            <Link
-              href="/learn"
-              className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
-            >
+            <span className="inline-block mt-8 text-white/50 text-sm font-medium group-hover:text-white group-hover:translate-x-1 transition-all duration-300">
               Start Learning →
-            </Link>
-          </div>
+            </span>
+          </Link>
         </div>
       </div>
     </Section>
@@ -150,40 +144,38 @@ const placeholderEpisodes = [
 
 function LatestEpisodes() {
   return (
-    <Section className="py-24 md:py-32 bg-dark-surface">
+    <Section className="py-24 md:py-32 bg-[#0A0A0A]">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Latest Episodes</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex items-end justify-between mb-14">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Latest Episodes</h2>
+          <Link href="/podcast" className="hidden md:block text-white/40 text-sm font-medium hover:text-white transition-colors">
+            View All →
+          </Link>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
           {placeholderEpisodes.map((ep) => (
-            <div
-              key={ep.num}
-              className="bg-dark-card border border-border rounded-lg overflow-hidden hover:border-[#333] transition-colors group"
-            >
-              {/* Thumbnail placeholder */}
-              <div className="aspect-video bg-[#1A1A1A] flex items-center justify-center">
-                <div className="w-12 h-12 rounded-full bg-[#222] flex items-center justify-center group-hover:bg-gold/20 transition-colors">
-                  <svg className="w-5 h-5 text-white ml-0.5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
+            <div key={ep.num} className="group cursor-pointer">
+              <div className="aspect-video bg-[#141414] mb-5 overflow-hidden">
+                <div className="w-full h-full flex items-center justify-center group-hover:bg-[#1A1A1A] transition-colors duration-300">
+                  <div className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center group-hover:border-white/50 group-hover:scale-110 transition-all duration-300">
+                    <svg className="w-4 h-4 text-white/60 ml-0.5 group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
                 </div>
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-3 text-muted text-xs mb-2">
-                  <span>EP {ep.num}</span>
-                  <span>·</span>
-                  <span>{ep.duration}</span>
-                </div>
-                <h3 className="text-white font-semibold leading-snug mb-1">{ep.title}</h3>
-                <p className="text-muted text-sm">{ep.guest}</p>
+              <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.15em] text-muted/60 mb-2">
+                <span>EP {ep.num}</span>
+                <span className="w-3 h-[1px] bg-muted/30" />
+                <span>{ep.duration}</span>
               </div>
+              <h3 className="text-white font-semibold text-lg leading-snug group-hover:text-white/80 transition-colors">{ep.title}</h3>
+              <p className="text-muted/60 text-sm mt-1">{ep.guest}</p>
             </div>
           ))}
         </div>
-        <div className="mt-10 text-center">
-          <Link
-            href="/episodes"
-            className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
-          >
+        <div className="mt-12 text-center md:hidden">
+          <Link href="/podcast" className="text-white/40 text-sm font-medium hover:text-white transition-colors">
             View All Episodes →
           </Link>
         </div>
@@ -325,45 +317,36 @@ function Mission() {
 /* ─── ECOSYSTEM / TOOLS ─── */
 function Ecosystem() {
   return (
-    <Section className="py-24 md:py-32 bg-dark-surface">
+    <Section className="py-24 md:py-32 bg-[#0A0A0A] border-t border-[#1A1A1A]">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Tools We Built for Painters</h2>
-          <p className="text-muted max-w-xl mx-auto">
+        <div className="mb-16">
+          <span className="text-[11px] uppercase tracking-[0.2em] text-muted/60 font-medium">Our Ecosystem</span>
+          <h2 className="text-3xl md:text-4xl font-bold mt-2 tracking-tight">Tools We Built for Painters</h2>
+          <p className="text-muted mt-3 max-w-xl">
             Everything we teach on Paint Pays, we built the software to actually do it.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <div className="bg-dark-card border border-border rounded-lg p-8 hover:border-[#333] transition-colors">
-            <div className="text-2xl mb-3 font-bold">PaintCostPro</div>
-            <p className="text-muted text-sm leading-relaxed mb-6">
+        <div className="grid md:grid-cols-2 gap-0">
+          <a href="https://paintcostpro.com" target="_blank" rel="noopener noreferrer" className="group block py-10 md:py-14 md:pr-14 md:border-r border-[#1A1A1A]">
+            <div className="text-3xl md:text-4xl font-bold tracking-tight group-hover:text-white/80 transition-colors">PaintCostPro</div>
+            <p className="text-muted leading-relaxed mt-3 mb-6 max-w-sm">
               The all-in-one platform for painting contractors. CRM, estimates, AI phone,
               marketing, crew management.
             </p>
-            <a
-              href="https://paintcostpro.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
-            >
+            <span className="text-white/40 text-sm font-medium group-hover:text-white group-hover:translate-x-1 transition-all duration-300 inline-block">
               Try PaintCostPro →
-            </a>
-          </div>
-          <div className="bg-dark-card border border-border rounded-lg p-8 hover:border-[#333] transition-colors">
-            <div className="text-2xl mb-3 font-bold">PaintCost</div>
-            <p className="text-muted text-sm leading-relaxed mb-6">
+            </span>
+          </a>
+          <a href="https://paintcost.com" target="_blank" rel="noopener noreferrer" className="group block py-10 md:py-14 md:pl-14 border-t md:border-t-0 border-[#1A1A1A]">
+            <div className="text-3xl md:text-4xl font-bold tracking-tight group-hover:text-white/80 transition-colors">PaintCost</div>
+            <p className="text-muted leading-relaxed mt-3 mb-6 max-w-sm">
               Free instant paint cost estimator for homeowners. The simplest way to price
               a painting job.
             </p>
-            <a
-              href="https://paintcost.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
-            >
+            <span className="text-white/40 text-sm font-medium group-hover:text-white group-hover:translate-x-1 transition-all duration-300 inline-block">
               Try PaintCost →
-            </a>
-          </div>
+            </span>
+          </a>
         </div>
       </div>
     </Section>
@@ -413,35 +396,31 @@ const merchItems = [
 
 function MerchPreview() {
   return (
-    <Section className="py-24 md:py-32 bg-dark-surface">
+    <Section className="py-24 md:py-32 bg-[#0A0A0A] border-t border-[#1A1A1A]">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Wear the Brand</h2>
-          <p className="text-muted max-w-lg mx-auto">
-            Premium gear for painters who take their craft seriously.
-          </p>
+        <div className="flex items-end justify-between mb-14">
+          <div>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-muted/60 font-medium">Merch</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 tracking-tight">Wear the Brand</h2>
+          </div>
+          <Link href="/merch" className="hidden md:block text-white/40 text-sm font-medium hover:text-white transition-colors">
+            Shop All →
+          </Link>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
           {merchItems.map((item) => (
-            <div
-              key={item.name}
-              className="bg-dark-card border border-border rounded-lg overflow-hidden hover:border-[#333] transition-colors group"
-            >
-              <div className="aspect-square bg-[#1A1A1A] flex items-center justify-center">
-                <p className="text-muted text-sm">{item.type}</p>
+            <div key={item.name} className="group cursor-pointer">
+              <div className="aspect-[4/5] bg-[#141414] mb-5 overflow-hidden group-hover:bg-[#1A1A1A] transition-colors duration-300 flex items-center justify-center">
+                <p className="text-muted/40 text-xs uppercase tracking-widest">{item.type}</p>
               </div>
-              <div className="p-5">
-                <h3 className="text-white font-semibold">{item.name}</h3>
-              </div>
+              <h3 className="text-white font-semibold group-hover:text-white/80 transition-colors">{item.name}</h3>
+              <p className="text-muted/50 text-sm mt-1">Coming Soon</p>
             </div>
           ))}
         </div>
-        <div className="mt-10 text-center">
-          <Link
-            href="/merch"
-            className="inline-block px-6 py-3 border border-gold text-gold text-sm font-medium rounded-sm hover:bg-gold hover:text-black transition-colors"
-          >
-            Shop Merch →
+        <div className="mt-12 text-center md:hidden">
+          <Link href="/merch" className="text-white/40 text-sm font-medium hover:text-white transition-colors">
+            Shop All →
           </Link>
         </div>
       </div>
