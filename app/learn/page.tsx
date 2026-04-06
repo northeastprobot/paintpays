@@ -1,9 +1,9 @@
 const topics = [
   { emoji: '💰', title: 'Sales', desc: 'Closing deals, pricing strategies, and building a pipeline that never dries up.', count: 14 },
   { emoji: '👷', title: 'Hiring & Crews', desc: 'Finding reliable painters, building culture, and keeping your best people.', count: 11 },
-  { emoji: '📣', title: 'Marketing', desc: 'Facebook ads, Google, yard signs, referrals — what actually works.', count: 9 },
+  { emoji: '📣', title: 'Marketing', desc: 'Facebook ads, Google, yard signs, referrals, and what actually works.', count: 9 },
   { emoji: '📐', title: 'Estimating', desc: 'Pricing jobs right, building proposals that win, and knowing your numbers.', count: 8 },
-  { emoji: '⚙️', title: 'Systems & Operations', desc: 'CRMs, scheduling, project management — the backbone of a real company.', count: 12 },
+  { emoji: '⚙️', title: 'Systems & Operations', desc: 'CRMs, scheduling, project management. The backbone of a real company.', count: 12 },
   { emoji: '🧠', title: 'Mindset & Leadership', desc: 'The mental game of scaling, leading people, and building something that lasts.', count: 10 },
 ];
 
@@ -28,7 +28,7 @@ export default function LearnPage() {
             The Playbook
           </h1>
           <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto">
-            Everything I know about running a $5M painting company — for free.
+            Everything I know about running a $5M painting company. For free.
             No gatekeeping.
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function LearnPage() {
             Never Miss a New Episode
           </h2>
           <p className="text-muted text-lg mb-10 max-w-xl mx-auto">
-            New strategies, breakdowns, and real talk — every week on YouTube.
+            New strategies, breakdowns, and real talk every week on YouTube.
           </p>
           <a
             href="https://youtube.com/@PaintPays"

@@ -13,7 +13,7 @@ const courses = [
     title: 'The $1M Blueprint',
     subtitle: 'Foundation Course',
     description:
-      "The complete roadmap to hitting your first $1M in painting revenue. From pricing to hiring to marketing — every system I built is laid out step-by-step.",
+      "The complete roadmap to hitting your first $1M in painting revenue. From pricing to hiring to marketing, every system I built is laid out step-by-step.",
     modules: [
       'Pricing for profit (not just to win jobs)',
       'Building your first sales process',
@@ -76,7 +76,7 @@ export default function AcademyPage() {
           </h1>
           <p className="text-[#888888] text-lg max-w-2xl mx-auto">
             Self-paced courses built for painting contractors who are serious about scaling. No fluff,
-            no theory — just systems that work in the real world.
+            no theory. Just systems that work in the real world.
           </p>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default function AcademyPage() {
         <div className="max-w-3xl mx-auto bg-[#141414] border border-[#F5C518] rounded-2xl p-12 text-center">
           <div className="text-5xl mb-4">🏆</div>
           <h2 className="text-3xl font-black mb-4">
-            Get All 3 Courses — <span className="text-[#F5C518]">Save 30%</span>
+            Get All 3 Courses: <span className="text-[#F5C518]">Save 30%</span>
           </h2>
           <p className="text-[#888888] mb-2">
             Everything you need to scale your painting business, bundled together.

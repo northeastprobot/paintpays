@@ -78,7 +78,7 @@ export default function MerchPage() {
       <section className="py-20 md:py-24 px-6 bg-dark-card">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xl md:text-2xl font-bold leading-relaxed">
-            Paint Pays isn&apos;t just what we watch —{' '}
+            Paint Pays isn&apos;t just what we watch.{' '}
             <span className="text-gold">it&apos;s who we are.</span>
           </p>
           <p className="text-muted mt-4">

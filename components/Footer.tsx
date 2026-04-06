@@ -99,7 +99,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-[#222] text-center">
           <p className="text-gold italic text-sm leading-relaxed max-w-2xl mx-auto mb-6">
             &ldquo;For we are God&rsquo;s handiwork, created in Christ Jesus to do good works.&rdquo;
-            <span className="block mt-1 text-gold/70 not-italic text-xs">— Ephesians 2:10</span>
+            <span className="block mt-1 text-gold/70 not-italic text-xs">Ephesians 2:10</span>
           </p>
           <div className="flex flex-wrap items-center justify-center gap-2 text-muted text-xs">
             <span>© 2026 Paint Pays</span>

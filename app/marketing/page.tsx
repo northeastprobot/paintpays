@@ -63,7 +63,7 @@ export default function MarketingPage() {
             <span className="text-[#F5C518]">You Run Your Business.</span>
           </h1>
           <p className="text-[#888888] text-lg max-w-2xl mx-auto">
-            The same marketing system that drives $5M in annual revenue for Northeast Pro Services —
+            The same marketing system that drives $5M in annual revenue for Northeast Pro Services,
             deployed and managed for your painting company.
           </p>
         </div>

@@ -15,7 +15,7 @@ const groupBenefits = [
   'Weekly live group coaching calls with Thomas',
   'Done-for-you templates: estimates, contracts, hiring scripts',
   'Private community of serious painting contractors',
-  'Monthly hot seat sessions — your business reviewed live',
+  'Monthly hot seat sessions where your business gets reviewed live',
   'Access to all course materials in the Academy',
   'Accountability partners and peer support',
 ];
@@ -26,7 +26,7 @@ const mentorshipBenefits = [
   'Weekly 1-on-1 strategy sessions',
   'Full marketing system setup and review',
   'Hiring and org chart buildout',
-  'Priority support — Thomas in your corner 24/7',
+  'Priority support with Thomas in your corner 24/7',
 ];
 
 export default function CoachingPage() {
@@ -198,8 +198,8 @@ export default function CoachingPage() {
               </label>
               <select className="w-full bg-[#141414] border border-[#222222] rounded px-4 py-3 text-white focus:outline-none focus:border-[#F5C518] transition-colors">
                 <option value="">Select a program</option>
-                <option value="group">Group Coaching — $497/month</option>
-                <option value="mentorship">1-on-1 Mentorship — $3,000/month</option>
+                <option value="group">Group Coaching: $497/month</option>
+                <option value="mentorship">1-on-1 Mentorship: $3,000/month</option>
                 <option value="unsure">Not sure yet</option>
               </select>
             </div>

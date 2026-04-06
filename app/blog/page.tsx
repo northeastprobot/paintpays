@@ -12,7 +12,7 @@ const posts = [
     category: 'Estimating',
     title: 'The Exact Production Rate System I Use to Estimate Every Job',
     excerpt:
-      "Stop guessing on estimates. Here's the production rate spreadsheet I've used on 700+ jobs — and how to customize it for your market.",
+      "Stop guessing on estimates. Here's the production rate spreadsheet I've used on 700+ jobs, plus how to customize it for your market.",
     date: 'March 2026',
     readTime: '8 min read',
   },
@@ -20,7 +20,7 @@ const posts = [
     category: 'Crew Management',
     title: 'Why Your Best Painter Keeps Quitting (And How to Fix It)',
     excerpt:
-      "Turnover is killing your margins. This is the real reason painters leave — and the simple system that cut my turnover by 60%.",
+      "Turnover is killing your margins. This is the real reason painters leave, and the simple system that cut my turnover by 60%.",
     date: 'February 2026',
     readTime: '6 min read',
   },
@@ -28,7 +28,7 @@ const posts = [
     category: 'Marketing',
     title: 'The $0 Marketing Strategy That Filled My Schedule in Year One',
     excerpt:
-      "Before I ran ads, before SEO — I built my first $500K from three marketing moves that cost nothing but time. Here's exactly what I did.",
+      "Before I ran ads, before SEO, I built my first $500K from three marketing moves that cost nothing but time. Here's exactly what I did.",
     date: 'January 2026',
     readTime: '7 min read',
   },
@@ -44,7 +44,7 @@ const posts = [
     category: 'Systems',
     title: 'The One Hire That Freed Me From Running Every Job',
     excerpt:
-      "The day I hired my first real foreman — not just a lead painter — everything changed. Here's the role, the pay structure, and the onboarding process.",
+      "The day I hired my first real foreman (not just a lead painter), everything changed. Here's the role, the pay structure, and the onboarding process.",
     date: 'November 2025',
     readTime: '9 min read',
   },
@@ -52,7 +52,7 @@ const posts = [
     category: 'Finance',
     title: 'Cash Flow Basics for Painting Contractors (Nobody Teaches This)',
     excerpt:
-      "I almost went broke with $800K in revenue. Here's the simple cash flow system that saved my business — and keeps $100K in the account at all times.",
+      "I almost went broke with $800K in revenue. Here's the simple cash flow system that saved my business and keeps $100K in the account at all times.",
     date: 'October 2025',
     readTime: '6 min read',
   },

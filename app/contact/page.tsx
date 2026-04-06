@@ -8,7 +8,7 @@ export default function ContactPage() {
             Let&apos;s Connect
           </h1>
           <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto">
-            Whether it&apos;s a partnership, a guest spot, or just a question —
+            Whether it&apos;s a partnership, a guest spot, or just a question,
             we&apos;d love to hear from you.
           </p>
         </div>

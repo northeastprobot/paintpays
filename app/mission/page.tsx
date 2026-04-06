@@ -29,7 +29,7 @@ export default function MissionPage() {
             &ldquo;As each one has received a gift, use it to serve one
             another, as good stewards of God&apos;s varied grace.&rdquo;
           </p>
-          <p className="text-muted text-sm">— 1 Peter 4:10</p>
+          <p className="text-muted text-sm">1 Peter 4:10</p>
         </div>
       </section>
 
@@ -41,7 +41,7 @@ export default function MissionPage() {
           </h2>
           <div className="space-y-6 text-lg md:text-xl leading-relaxed text-muted-light">
             <p>
-              We believe painting isn&apos;t just a trade — it&apos;s a calling.
+              We believe painting isn&apos;t just a trade. It&apos;s a calling.
             </p>
             <p>
               We believe the work of your hands can build a life beyond what you
@@ -56,7 +56,7 @@ export default function MissionPage() {
               duty to share it.
             </p>
             <p>
-              We believe iron sharpens iron — and this community makes all of us
+              We believe iron sharpens iron, and this community makes all of us
               better.
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function MissionPage() {
             &ldquo;Let us not become weary in doing good, for at the proper
             time we will reap a harvest if we do not give up.&rdquo;
           </p>
-          <p className="text-muted text-sm">— Galatians 6:9</p>
+          <p className="text-muted text-sm">Galatians 6:9</p>
         </div>
       </section>
 
@@ -111,17 +111,17 @@ export default function MissionPage() {
             <p>
               If our experience can save one contractor from the same mistakes
               we made, or help one family build the life they&apos;ve been
-              praying for — that&apos;s the harvest.
+              praying for, that&apos;s the harvest.
             </p>
             <p>
               Thomas started Paint Pays because the painting industry gave him
-              everything — a business, a livelihood, a purpose, a way to
+              everything: a business, a livelihood, a purpose, a way to
               provide. And he believes that kind of blessing comes with a
               responsibility: pour it back out.
             </p>
             <p>
               Every video is free. Every conversation is genuine. Every piece of
-              advice comes from real experience — the wins and the losses. No
+              advice comes from real experience, the wins and the losses. No
               one should have to learn the hard lessons alone.
             </p>
             <p>
@@ -139,7 +139,7 @@ export default function MissionPage() {
             &ldquo;For we are God&apos;s handiwork, created in Christ Jesus to
             do good works, which God prepared in advance for us to do.&rdquo;
           </p>
-          <p className="text-muted text-sm">— Ephesians 2:10</p>
+          <p className="text-muted text-sm">Ephesians 2:10</p>
         </div>
       </section>
 

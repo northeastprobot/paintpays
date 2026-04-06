@@ -10,7 +10,7 @@ export default function AboutPage() {
             For Painters.
           </h1>
           <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto">
-            The story behind Paint Pays — and why everything we create is free.
+            The story behind Paint Pays, and why everything we create is free.
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Photo Placeholder */}
           <div className="aspect-[3/4] bg-dark-surface border border-border rounded-lg flex items-center justify-center">
-            <span className="text-muted text-sm">Photo — Thomas on site</span>
+            <span className="text-muted text-sm">Photo: Thomas on site</span>
           </div>
 
           {/* Story */}
@@ -29,12 +29,12 @@ export default function AboutPage() {
             <p className="text-muted-light leading-relaxed">
               I started with a truck, a sprayer, and zero business knowledge.
               No mentor. No playbook. No safety net. Every single lesson came
-              from getting it wrong first — and figuring out how to get back up.
+              from getting it wrong first and figuring out how to get back up.
             </p>
             <p className="text-muted-light leading-relaxed">
               I didn&apos;t grow up around business owners. Nobody in my circle
               knew how to read a P&amp;L, hire a crew, or close a $50K deal. I
-              learned it all the hard way — in Buffalo, New York, in the snow,
+              learned it all the hard way. In Buffalo, New York, in the snow,
               on rooftops, knocking doors, and grinding through seasons where I
               wasn&apos;t sure if the company would survive.
             </p>
@@ -46,7 +46,7 @@ export default function AboutPage() {
             </p>
             <p className="text-muted-light leading-relaxed">
               But the money isn&apos;t the point. It never was. The point is the
-              life it built — for me, for my family, for my crew, for every
+              life it built. For me, for my family, for my crew, for every
               contractor I&apos;ve been able to help along the way.
             </p>
           </div>
@@ -63,15 +63,15 @@ export default function AboutPage() {
             <p className="text-muted-light leading-relaxed">
               Paint Pays exists because this industry gave me everything, and I
               believe it&apos;s my responsibility to give back. Every video,
-              every conversation, every piece of free game — it&apos;s all
+              every conversation, every piece of free game, it&apos;s all
               because I know what&apos;s possible when someone shows you the
               way.
             </p>
             <p className="text-muted-light leading-relaxed">
               I spent years making mistakes that cost me hundreds of thousands
               of dollars. I don&apos;t want other painters to go through that.
-              If I can save one contractor from the same pit I fell into — or
-              help one family build the life they&apos;ve been working toward —
+              If I can save one contractor from the same pit I fell into, or
+              help one family build the life they&apos;ve been working toward,
               that&apos;s the whole point.
             </p>
             <p className="text-muted-light leading-relaxed">
@@ -84,7 +84,7 @@ export default function AboutPage() {
           {/* Photo Placeholder */}
           <div className="aspect-video bg-dark-surface border border-border rounded-lg flex items-center justify-center md:order-2">
             <span className="text-muted text-sm">
-              Photo — Thomas in the studio
+              Photo: Thomas in the studio
             </span>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function AboutPage() {
             &ldquo;Let us not become weary in doing good, for at the proper
             time we will reap a harvest if we do not give up.&rdquo;
           </p>
-          <p className="text-muted text-sm">— Galatians 6:9</p>
+          <p className="text-muted text-sm">Galatians 6:9</p>
         </div>
       </section>
 
@@ -177,7 +177,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-muted text-lg mb-10 max-w-xl mx-auto">
             Watch how Thomas breaks down the real strategies behind a $5M
-            painting company — for free.
+            painting company, for free.
           </p>
           <a
             href="/podcast"

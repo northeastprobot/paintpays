@@ -110,7 +110,7 @@ function ContentPillars() {
             <div className="text-3xl mb-4">🎯</div>
             <h3 className="text-2xl md:text-3xl font-bold mb-3">The Playbook</h3>
             <p className="text-muted leading-relaxed mb-6">
-              Everything I&rsquo;ve learned building a $5M painting company — systems, sales,
+              Everything I&rsquo;ve learned building a $5M painting company: systems, sales,
               hiring, marketing, mindset. No gatekeeping.
             </p>
             <Link
@@ -262,13 +262,13 @@ function AboutStory() {
               </p>
               <p>
                 Today, Northeast Pro Services does over $5 million a year. But the money
-                isn&rsquo;t the point. It&rsquo;s the life it built — for me, for my family,
+                isn&rsquo;t the point. It&rsquo;s the life it built. For me, for my family,
                 for my crew, for every contractor I&rsquo;ve been able to help along the way.
               </p>
               <p>
                 Paint Pays exists because this industry gave me everything, and I believe
                 it&rsquo;s my responsibility to give back. Every video, every conversation,
-                every piece of free game — it&rsquo;s all because I know what&rsquo;s possible
+                every piece of free game, it&rsquo;s all because I know what&rsquo;s possible
                 when someone shows you the way.
               </p>
             </div>
@@ -292,7 +292,7 @@ function Mission() {
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-10">Why We Do This</h2>
         <div className="space-y-3 text-muted-light text-lg md:text-xl leading-relaxed mb-10">
-          <p>We believe painting isn&rsquo;t just a trade — it&rsquo;s a calling.</p>
+          <p>We believe painting isn&rsquo;t just a trade. It&rsquo;s a calling.</p>
           <p>
             We believe the work of your hands can build a life beyond what you imagined.
           </p>
@@ -303,13 +303,13 @@ function Mission() {
             We believe if you&rsquo;ve been blessed with knowledge, you have a duty to share it.
           </p>
           <p>
-            We believe iron sharpens iron — and this community makes all of us better.
+            We believe iron sharpens iron, and this community makes all of us better.
           </p>
         </div>
         <p className="text-gold italic text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-10">
           &ldquo;As each one has received a gift, use it to serve one another, as good
           stewards of God&rsquo;s varied grace.&rdquo;
-          <span className="block mt-1 text-gold/70 not-italic text-sm">— 1 Peter 4:10</span>
+          <span className="block mt-1 text-gold/70 not-italic text-sm">1 Peter 4:10</span>
         </p>
         <Link
           href="/mission"
@@ -330,7 +330,7 @@ function Ecosystem() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Tools We Built for Painters</h2>
           <p className="text-muted max-w-xl mx-auto">
-            Everything we teach on Paint Pays — we built the software to actually do it.
+            Everything we teach on Paint Pays, we built the software to actually do it.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -379,7 +379,7 @@ function Newsletter() {
           Get the Game Before It Drops
         </h2>
         <p className="text-muted mb-8">
-          New episodes, strategies, and resources — straight to your inbox. No spam.
+          New episodes, strategies, and resources sent straight to your inbox. No spam.
           Just signal.
         </p>
         <form

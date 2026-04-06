@@ -1,7 +1,7 @@
 const benefits = [
   { icon: '🎬', title: 'Weekly Episodes', desc: 'New conversations and strategies every week, delivered before they hit social.' },
   { icon: '📋', title: 'Business Strategies', desc: 'Actionable frameworks for sales, hiring, marketing, and operations.' },
-  { icon: '🎁', title: 'Free Resources', desc: 'Templates, checklists, and tools — exclusive to subscribers.' },
+  { icon: '🎁', title: 'Free Resources', desc: 'Templates, checklists, and tools, exclusive to subscribers.' },
   { icon: '🤝', title: 'Community Updates', desc: 'Events, merch drops, and what\'s coming next for Paint Pays.' },
 ];
 
@@ -18,7 +18,7 @@ export default function SubscribePage() {
             Get the Game Before It Drops
           </h1>
           <p className="text-muted text-lg md:text-xl max-w-xl mx-auto mb-12">
-            New episodes, strategies, and resources — straight to your inbox.
+            New episodes, strategies, and resources sent straight to your inbox.
           </p>
 
           {/* Email Form */}
@@ -68,7 +68,7 @@ export default function SubscribePage() {
           </h2>
           <p className="text-muted text-lg mb-10">
             Every week, thousands of painting contractors get strategies that
-            actually work — straight from someone who built a $5M company.
+            actually work, straight from someone who built a $5M company.
           </p>
           <div className="max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row gap-3">

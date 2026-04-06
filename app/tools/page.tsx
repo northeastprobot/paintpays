@@ -3,7 +3,7 @@ const pcpFeatures = [
   { icon: '📊', title: 'CRM & Pipeline', desc: 'Track every lead from first call to final payment. No more sticky notes.' },
   { icon: '📋', title: 'Estimates & Proposals', desc: 'Professional proposals that close. Built-in templates and e-signatures.' },
   { icon: '📣', title: 'Marketing Suite', desc: 'Email campaigns, review requests, and automated follow-ups.' },
-  { icon: '👷', title: 'Crew Management', desc: 'Schedules, assignments, and communication — all in one place.' },
+  { icon: '👷', title: 'Crew Management', desc: 'Schedules, assignments, and communication, all in one place.' },
   { icon: '📈', title: 'Analytics', desc: 'Know your numbers. Revenue, close rate, lead sources, crew performance.' },
 ];
 
@@ -20,7 +20,7 @@ export default function ToolsPage() {
             Tools We Built for Painters
           </h1>
           <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto">
-            Everything we teach on Paint Pays — we built the software to
+            Everything we teach on Paint Pays, we built the software to
             actually do it.
           </p>
         </div>
@@ -97,7 +97,7 @@ export default function ToolsPage() {
               <p className="text-muted leading-relaxed mb-10">
                 The simplest way for a homeowner to understand what their
                 project costs. No sign-up required. Instant results. Built to
-                help homeowners make informed decisions — and connect with the
+                help homeowners make informed decisions and connect with the
                 right painter.
               </p>
               <a
