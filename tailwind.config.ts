@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        gold: '#D4A853',
-        'gold-light': '#E8C97A',
-        'gold-dark': '#B8923F',
+        gold: '#E8E8E8',
+        'gold-light': '#FFFFFF',
+        'gold-dark': '#CCCCCC',
         'dark-bg': '#0A0A0A',
         'dark-card': '#141414',
         'dark-surface': '#1A1A1A',

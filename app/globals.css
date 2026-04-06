@@ -5,7 +5,7 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ffffff;
-  --gold: #D4A853;
+  --gold: #E8E8E8;
   --dark-card: #141414;
   --dark-surface: #1A1A1A;
   --muted: #888888;
@@ -104,12 +104,12 @@ input:focus-visible {
 
 @layer utilities {
   .text-gold {
-    color: #D4A853;
+    color: #E8E8E8;
   }
   .bg-gold {
-    background-color: #D4A853;
+    background-color: #E8E8E8;
   }
   .border-gold {
-    border-color: #D4A853;
+    border-color: #E8E8E8;
   }
 }
